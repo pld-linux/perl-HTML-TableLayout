@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla HTML-TableLayout
 Name:		perl-HTML-TableLayout
 Version:	1.001008
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/HTML/HTML-TableLayout-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/HTML/HTML-TableLayout-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,12 +15,12 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-HTML-TableLayout is a HTML-generating package for making graphical user 
-interfaces via a web browser.
+HTML-TableLayout is a HTML-generating package for making graphical
+user interfaces via a web browser.
 
 %description -l pl
-HTML-TableLayout jest pakietem generuj±cym graficzne interfejsy u¿ytkownika
-w HTMLu przez przegl±darkê www.
+HTML-TableLayout jest pakietem generuj±cym graficzne interfejsy
+u¿ytkownika w HTMLu przez przegl±darkê www.
 
 %prep
 %setup -q -n HTML-TableLayout-%{version}
