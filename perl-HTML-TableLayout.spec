@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	TableLayout
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML-TableLayout perl module
 Summary(pl):	Modu³ perla HTML-TableLayout
 Name:		perl-HTML-TableLayout
 Version:	1.001008
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ HTML-TableLayout jest pakietem generuj±cym graficzne interfejsy
 u¿ytkownika w HTMLu przez przegl±darkê www.
 
 %prep
-%setup -q -n HTML-TableLayout-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
