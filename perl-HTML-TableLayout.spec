@@ -28,7 +28,7 @@ u¿ytkownika w HTMLu przez przegl±darkê www.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
