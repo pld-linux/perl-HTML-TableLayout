@@ -26,7 +26,7 @@ u¿ytkownika w HTMLu przez przegl±darkê www.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
