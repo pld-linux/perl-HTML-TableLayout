@@ -34,14 +34,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf README RELEASE_NOTES *txt
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README RELEASE_NOTES *txt
 %{perl_sitelib}/HTML/TableLayout.pm
 %dir %{perl_sitelib}/HTML/TableLayout
 %{perl_sitelib}/HTML/TableLayout/*.pm
