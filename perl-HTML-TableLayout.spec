@@ -27,7 +27,7 @@ u¿ytkownika w HTMLu przez przegl±darkê www.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
