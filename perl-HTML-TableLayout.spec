@@ -5,11 +5,11 @@ Summary:	HTML::TableLayout perl module
 Summary(pl):	Modu³ perla HTML::TableLayout
 Name:		perl-HTML-TableLayout
 Version:	1.001008
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -26,7 +26,8 @@ u¿ytkownika w HTMLu przez przegl±darkê www.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -40,7 +41,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README RELEASE_NOTES *txt
-%{perl_sitelib}/HTML/TableLayout.pm
-%dir %{perl_sitelib}/HTML/TableLayout
-%{perl_sitelib}/HTML/TableLayout/*.pm
+%{perl_vendorlib}/HTML/TableLayout.pm
+%dir %{perl_vendorlib}/HTML/TableLayout
+%{perl_vendorlib}/HTML/TableLayout/*.pm
 %{_mandir}/man3/*
