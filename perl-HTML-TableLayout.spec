@@ -2,7 +2,7 @@
 Summary:	HTML-TableLayout perl module
 Summary(pl):	Modu³ perla HTML-TableLayout
 Name:		perl-HTML-TableLayout
-Version:	0.10
+Version:	1.001008
 Release:	3
 Copyright:	GPL
 Group:		Development/Languages/Perl
