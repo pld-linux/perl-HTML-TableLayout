@@ -5,7 +5,7 @@ Summary:	HTML::TableLayout - "Layout Manager" for CGI-based web applications
 Summary(pl):	HTML::TableLayout - "Zarz±dca opcji" dla opartych na CGI aplikacji WWW
 Name:		perl-HTML-TableLayout
 Version:	1.001008
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
