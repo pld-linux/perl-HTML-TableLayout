@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	TableLayout
-Summary:	HTML::TableLayout perl module
-Summary(pl):	Modu³ perla HTML::TableLayout
+Summary:	HTML::TableLayout - "Layout Manager" for CGI-based web applications
+Summary(pl):	HTML::TableLayout - "Zarz±dca opcji" dla opartych na CGI aplikacji WWW
 Name:		perl-HTML-TableLayout
 Version:	1.001008
 Release:	9
@@ -18,11 +18,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 HTML::TableLayout is a HTML-generating package for making graphical
-user interfaces via a web browser.
+user interfaces via a web browser using a "Layout Manager" paradigm
+such as in Tk/Tcl or Java.  It includes a component hierarchy for
+making new "widgets".
 
 %description -l pl
 HTML::TableLayout jest pakietem generuj±cym graficzne interfejsy
-u¿ytkownika w HTMLu przez przegl±darkê www.
+u¿ytkownika w HTML-u przez przegl±darkê WWW za pomoc± paradygmatu
+"Zarz±dcy opcji" ("Layout Manager"), takiego jak w Tk/Tcl lub Javie.
+Zawiera on hierarchie komponentów tworz±cych nowe kontrolki.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
