@@ -2,7 +2,7 @@
 %define		pdir	HTML
 %define		pnam	TableLayout
 Summary:	HTML::TableLayout - "Layout Manager" for CGI-based web applications
-Summary(pl):	HTML::TableLayout - "Zarz±dca opcji" dla opartych na CGI aplikacji WWW
+Summary(pl.UTF-8):   HTML::TableLayout - "ZarzÄ…dca opcji" dla opartych na CGI aplikacji WWW
 Name:		perl-HTML-TableLayout
 Version:	1.001008
 Release:	10
@@ -22,11 +22,11 @@ user interfaces via a web browser using a "Layout Manager" paradigm
 such as in Tk/Tcl or Java.  It includes a component hierarchy for
 making new "widgets".
 
-%description -l pl
-HTML::TableLayout jest pakietem generuj±cym graficzne interfejsy
-u¿ytkownika w HTML-u przez przegl±darkê WWW za pomoc± paradygmatu
-"Zarz±dcy opcji" ("Layout Manager"), takiego jak w Tk/Tcl lub Javie.
-Zawiera on hierarchie komponentów tworz±cych nowe kontrolki.
+%description -l pl.UTF-8
+HTML::TableLayout jest pakietem generujÄ…cym graficzne interfejsy
+uÅ¼ytkownika w HTML-u przez przeglÄ…darkÄ™ WWW za pomocÄ… paradygmatu
+"ZarzÄ…dcy opcji" ("Layout Manager"), takiego jak w Tk/Tcl lub Javie.
+Zawiera on hierarchie komponentÃ³w tworzÄ…cych nowe kontrolki.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
