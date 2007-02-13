@@ -2,7 +2,7 @@
 %define		pdir	HTML
 %define		pnam	TableLayout
 Summary:	HTML::TableLayout - "Layout Manager" for CGI-based web applications
-Summary(pl.UTF-8):   HTML::TableLayout - "Zarządca opcji" dla opartych na CGI aplikacji WWW
+Summary(pl.UTF-8):	HTML::TableLayout - "Zarządca opcji" dla opartych na CGI aplikacji WWW
 Name:		perl-HTML-TableLayout
 Version:	1.001008
 Release:	10
