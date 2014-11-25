@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	HTML
 %define		pnam	TableLayout
+%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::TableLayout - "Layout Manager" for CGI-based web applications
 Summary(pl.UTF-8):	HTML::TableLayout - "Zarządca opcji" dla opartych na CGI aplikacji WWW
 Name:		perl-HTML-TableLayout
@@ -11,15 +11,16 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f1cd36c0fb77ef8a53255f40ffb457a0
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/HTML-TableLayout/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 HTML::TableLayout is a HTML-generating package for making graphical
 user interfaces via a web browser using a "Layout Manager" paradigm
-such as in Tk/Tcl or Java.  It includes a component hierarchy for
+such as in Tk/Tcl or Java. It includes a component hierarchy for
 making new "widgets".
 
 %description -l pl.UTF-8
