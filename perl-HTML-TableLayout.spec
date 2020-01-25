@@ -1,6 +1,5 @@
 %define		pdir	HTML
 %define		pnam	TableLayout
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::TableLayout - "Layout Manager" for CGI-based web applications
 Summary(pl.UTF-8):	HTML::TableLayout - "Zarządca opcji" dla opartych na CGI aplikacji WWW
 Name:		perl-HTML-TableLayout
